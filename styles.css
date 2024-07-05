@@ -289,3 +289,69 @@ h1 {
   font-size: 2rem;
   border-bottom: 7px solid #ff810b;
 }
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+
+  .section_soky p{
+    margin: 4%;
+  }
+
+  video {
+    max-width: 100%;
+  }
+
+  h1 {
+    height: auto;
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .section_tsu {
+    background-image: none;
+    background-color: #facbcb;
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 10px;
+  }
+
+  .parrafo_tsu {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .text_tsu {
+    grid-column: 1 / -1;
+    font-size: 16px;
+  }
+
+  .img_tsu.left,
+  .img_tsu.right {
+    grid-column: 1 / -1;
+    margin: 10px 0;
+  }
+
+  .s {
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_tsu {
+    padding: 5px;
+  }
+
+  .text_tsu {
+    font-size: 14px;
+  }
+
+  .s {
+    max-height: 80px;
+  }
+}
