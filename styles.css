@@ -131,6 +131,7 @@ h1 {
 }
 
 .section_prro p {
+  align-items: center;
   text-align: center;
   font-size: 18px;
   line-height: 1.6;
@@ -146,3 +147,122 @@ h1 {
   margin-bottom: 5px;
 }
 
+.transicion_raza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #212423 0%, #242725 100%);
+  border-top: 7px solid #ff0000;
+  color: white;
+  font-size: 2rem;
+  border-bottom: 7px solid #ff0000;
+}
+
+.transicion_raza p {
+  margin: 20% 0;
+}
+
+.transicion_yuki {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e9882c 0%, #fa6449 100%);
+  color: white;
+  border-top: 7px solid #c3e7f5;
+  font-size: 2rem;
+  border-bottom: 7px solid #c3e7f5;
+}
+
+.transicion_yuki p {
+  margin: 20% 0;
+}
+
+.transicion_soky {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f7fdea 0%, #fffed3 100%);
+  color: black;
+  border-top: 7px solid #ff810b;
+  font-size: 2rem;
+  border-bottom: 7px solid #ff810b;
+}
+
+.section_soky {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  color: #333;
+  height: 100%;
+  background: #f7f1e3; /* Color de fondo pastel */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden;
+}
+
+.section_soky p {
+  margin: 3%;
+  padding: 3%;
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  border-radius: 10px;
+  font-size: 18px; /* Tamaño de fuente un poco más pequeño */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #4a4a4a; /* Color de texto ligeramente más claro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra aún más suave */
+  backdrop-filter: blur(10px); /* Desenfoque de fondo */
+}
+
+.section_soky p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  color: #ff6f61; /* Color de la primera letra */
+}
+
+.section_soky p::before {
+  content: '“';
+  font-size: 36px;
+  color: #ff6f61; /* Color de la comilla de apertura */
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.section_soky p::after {
+  content: '”';
+  font-size: 36px;
+  color: #ff6f61; /* Color de la comilla de cierre */
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.transicion_rivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #c6adf5 0%, #cabcd6 100%);
+  color: black;
+  border-top: 7px solid #ff810b;
+  font-size: 2rem;
+  border-bottom: 7px solid #ff810b;
+}
+
+.section_kunklo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f7fdea 0%, #fffed3 100%);
+  color: black;
+  border-top: 7px solid #ff810b;
+  font-size: 2rem;
+  border-bottom: 7px solid #ff810b;
+}
